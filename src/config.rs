@@ -28,7 +28,7 @@ static AUTO_FIXUP_FIELD: &str = "stack.auto-fixup";
 static AUTO_REPAIR_FIELD: &str = "stack.auto-repair";
 static BACKUP_CAPACITY_FIELD: &str = "branch-stash.capacity";
 
-static DEFAULT_PROTECTED_BRANCHES: [&str; 4] = ["main", "master", "dev", "stable"];
+static DEFAULT_PROTECTED_BRANCHES: [&str; 3] = ["main", "master", "stable"];
 static DEFAULT_PROTECT_COMMIT_COUNT: usize = 50;
 static DEFAULT_PROTECT_COMMIT_AGE: std::time::Duration =
     std::time::Duration::from_secs(60 * 60 * 24 * 14);
